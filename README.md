@@ -15,7 +15,7 @@ By analyzing the distribution of our model's individual `Default_Probability` ou
 * **🟡 Amber Tier (Risk-Adjusted Conditional Approval):** Isolates **$18M** in mid-level risk exposure carrying a **40%** NPL rate ($7M expected loss). The prescriptive strategy routes these to credit officers for specialized risk-mitigation pricing, higher interest rates, or extra collateral requirements.
 * **🔴 Red Tier (Automatic Decline):** Successfully traps **$18M** of the most toxic exposure in the dataset. Because this specific segment exhibits a catastrophic **82% NPL rate**, enforcing an automatic rejection rule **instantly insulates $15.05M in bank capital from certain default**.
 
-### 🏥 Behavioral Insights by Loan Intent
+### Behavioral Insights by Loan Intent
 The analytical pipeline evaluates borrower behavior to highlight granular macro risk trends:
 * **Medical Loans (`loan_intent_MEDICAL`):** Carry an elevated baseline risk profile. Across the entire portfolio, medical borrowers default at a higher rate (**28%**) compared to non-medical counterparts (**20%**). Within the isolated Red Tier, the medical default rate skyrockets to **68%**.
 * **Venture Loans (`loan_intent_VENTURE`):** Demonstrate robust repayment indicators, maintaining a highly sustainable baseline default rate of **14%**.
