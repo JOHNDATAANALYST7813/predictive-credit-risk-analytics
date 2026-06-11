@@ -7,7 +7,7 @@ Instead of relying on traditional, rigid credit scoring systems or stopping at r
 
 ---
 
-## 🧠 Business Impact & The Data Story
+##  Business Impact & The Data Story
 
 By analyzing the distribution of our model's individual `Default_Probability` outputs, the portfolio is partitioned into three high-impact management guardrails:
 
